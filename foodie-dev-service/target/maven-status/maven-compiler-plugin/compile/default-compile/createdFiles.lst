@@ -1,0 +1,16 @@
+com/yufeng/service/CarouselService.class
+com/yufeng/service/UserService.class
+com/yufeng/service/OrderService.class
+com/yufeng/service/impl/ItemServiceImpl.class
+com/yufeng/service/AddressService.class
+com/yufeng/service/CategoryService.class
+com/yufeng/service/TestTransService.class
+com/yufeng/service/impl/CategoryServiceImpl.class
+com/yufeng/service/StuService.class
+com/yufeng/service/ItemService.class
+com/yufeng/service/impl/CarouselServiceImpl.class
+com/yufeng/service/impl/StuServiceImpl.class
+com/yufeng/service/impl/TestTransServiceImpl.class
+com/yufeng/service/impl/OrderServiceImpl.class
+com/yufeng/service/impl/AddressServiceImpl.class
+com/yufeng/service/impl/UserServiceImpl.class

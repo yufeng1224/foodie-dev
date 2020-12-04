@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>foodie-dev</artifactId>
+        <groupId>com.yufeng</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 数据库对应的实体类也可以放在这个模块中。 可以逆向生成 -->
+    <artifactId>foodie-dev-pojo</artifactId>
+
+    <dependencies>
+        <!-- 构建依赖关系 -->
+        <dependency>
+            <groupId>com.yufeng</groupId>
+            <artifactId>foodie-dev-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

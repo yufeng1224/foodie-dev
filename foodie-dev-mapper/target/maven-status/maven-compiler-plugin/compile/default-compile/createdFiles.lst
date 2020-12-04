@@ -1,0 +1,16 @@
+com/yufeng/mapper/CategoryMapper.class
+com/yufeng/mapper/UserAddressMapper.class
+com/yufeng/mapper/ItemsCommentsMapper.class
+com/yufeng/mapper/OrderStatusMapper.class
+com/yufeng/mapper/ItemsParamMapper.class
+com/yufeng/mapper/UsersMapper.class
+com/yufeng/my/mapper/MyMapper.class
+com/yufeng/mapper/ItemsImgMapper.class
+com/yufeng/mapper/CategoryMapperCustom.class
+com/yufeng/mapper/StuMapper.class
+com/yufeng/mapper/ItemsSpecMapper.class
+com/yufeng/mapper/OrdersMapper.class
+com/yufeng/mapper/ItemsMapper.class
+com/yufeng/mapper/CarouselMapper.class
+com/yufeng/mapper/ItemsMapperCustom.class
+com/yufeng/mapper/OrderItemsMapper.class

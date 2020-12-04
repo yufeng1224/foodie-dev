@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>foodie-dev</artifactId>
+        <groupId>com.yufeng</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>foodie-dev-api</artifactId>
+<!--    <packaging>jar</packaging>-->
+    <!-- 打包war [1] -->
+<!--    <packaging>war</packaging>-->
+
+    <!-- 用户请求的那层, 我们会把它称之为接口层。 命名上往往会定义为api -->
+
+    <dependencies>
+        <!--
+                假设又多了一个 common-mail jar包, 那么依赖关系可以分为以下2个分支
+                    1. api -> service -> mapper -> pojo -> common
+                    2. api -> common-mail
+                api 可以使用service、pojo与common中相应的方法的
+        -->
+        <dependency>
+            <groupId>com.yufeng</groupId>
+            <artifactId>foodie-dev-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <!-- 测试内容是放在api里面的, 所以加入了test-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
