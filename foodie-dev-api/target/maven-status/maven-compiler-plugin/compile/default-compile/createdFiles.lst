@@ -1,4 +1,5 @@
 com/yufeng/config/Swagger2.class
+META-INF/spring-configuration-metadata.json
 com/yufeng/controller/BaseController.class
 com/yufeng/controller/IndexController.class
 com/yufeng/config/OrderJob.class
@@ -12,5 +13,8 @@ com/yufeng/controller/HelloController.class
 com/yufeng/controller/AddressController.class
 com/yufeng/controller/StuFooController.class
 com/yufeng/controller/ShopcatController.class
+com/yufeng/resource/FileUpload.class
 com/yufeng/config/WebMvcConfig.class
 com/yufeng/Application.class
+com/yufeng/exception/CustomExceptionHandler.class
+com/yufeng/controller/center/CenterUserController.class

@@ -4,6 +4,7 @@ com/yufeng/pojo/ItemsComments.class
 com/yufeng/pojo/vo/ShopcartVO.class
 com/yufeng/pojo/vo/OrderVO.class
 com/yufeng/pojo/Orders.class
+com/yufeng/pojo/bo/center/CenterUserBO.class
 com/yufeng/pojo/bo/AddressBO.class
 com/yufeng/pojo/vo/CommentLevelCountsVO.class
 com/yufeng/pojo/vo/SubCategoryVO.class
