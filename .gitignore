@@ -12,3 +12,29 @@ gen
 /TODO     # 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
 build/    # 忽略 build/ 目录下的所有文件
 doc/*.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+.gitignore
+foodie-dev-api/target/classes/com/yufeng/config/OrderJob.class
+foodie-dev-api/target/classes/com/yufeng/controller/center/
+foodie-dev-api/target/generated-sources/
+foodie-dev-api/target/generated-test-sources/
+foodie-dev-common/src/main/resources/
+foodie-dev-common/src/test/
+foodie-dev-common/target/generated-sources/
+foodie-dev-common/target/generated-test-sources/
+foodie-dev-common/target/test-classes/
+foodie-dev-mapper/src/test/
+foodie-dev-mapper/target/generated-sources/
+foodie-dev-mapper/target/generated-test-sources/
+foodie-dev-mapper/target/test-classes/
+foodie-dev-pojo/src/main/resources/
+foodie-dev-pojo/src/test/
+foodie-dev-pojo/target/generated-sources/
+foodie-dev-pojo/target/generated-test-sources/
+foodie-dev-pojo/target/test-classes/
+foodie-dev-service/src/main/java/com/yufeng/service/center/
+foodie-dev-service/src/main/java/com/yufeng/service/impl/center/
+foodie-dev-service/src/main/resources/
+foodie-dev-service/src/test/
+foodie-dev-service/target/generated-sources/
+foodie-dev-service/target/generated-test-sources/
+foodie-dev-service/target/test-classes/
