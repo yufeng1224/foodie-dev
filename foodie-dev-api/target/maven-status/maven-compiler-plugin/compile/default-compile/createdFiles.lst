@@ -1,9 +1,11 @@
 com/yufeng/config/Swagger2.class
 com/yufeng/controller/BaseController.class
 com/yufeng/controller/IndexController.class
+com/yufeng/config/OrderJob.class
 com/yufeng/controller/ItemsController.class
 com/yufeng/controller/PassportController.class
 com/yufeng/controller/OrdersController.class
+com/yufeng/controller/center/CenterController.class
 com/yufeng/aspect/ServiceLogAspect.class
 com/yufeng/config/CorsConfig.class
 com/yufeng/controller/HelloController.class
