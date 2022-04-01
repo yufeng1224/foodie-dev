@@ -28,9 +28,7 @@
         3. 一个顶级工程可以由不同的子工程共同组合而成。
     -->
 
-    <!-- 1. 引入依赖parent
-         所有版本由当期parent进行管理了
-    -->
+    <!-- 1. 引入依赖parent, 所有版本号都由当期parent进行管理了 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
