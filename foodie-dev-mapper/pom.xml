@@ -14,9 +14,8 @@
     <dependencies>
 
         <!--
-            依赖关系:
-            mapper -> pojo -> common
-            mapper通过pojo是可以使用common中相应的方法的
+            1. 构建依赖关系:  mapper -> pojo -> common
+            2. mapper通过pojo是可以使用common中相应的方法的
         -->
         <dependency>
             <groupId>com.yufeng</groupId>

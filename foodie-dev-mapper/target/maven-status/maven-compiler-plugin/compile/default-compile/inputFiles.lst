@@ -1,6 +1,8 @@
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/CarouselMapper.java
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/ItemsParamMapper.java
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/OrderStatusMapper.java
+/Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/ItemsCommentsMapperCustom.java
+/Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/OrdersMapperCustom.java
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/UserAddressMapper.java
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/OrdersMapper.java
 /Users/yufeng/project/foodie-dev/foodie-dev-mapper/src/main/java/com/yufeng/mapper/ItemsImgMapper.java

@@ -26,11 +26,17 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         // 1. 添加 cors 配置信息
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.addAllowedOrigin("http://localhost:8080");            // 设置前端为8080
+        configuration.addAllowedOrigin("http://localhost:8080");
+        configuration.addAllowedOrigin("http://shop.z.mukewang.com:8080");
+        configuration.addAllowedOrigin("http://center.z.mukewang.com:8080");
+
+        // 设置前端为8080
         // 设置是否发送cookie信息
         configuration.setAllowCredentials(true);
+
         // 设置允许请求的方式
         configuration.addAllowedMethod("*");
+
         // 设置允许的header
         configuration.addAllowedHeader("*");
 

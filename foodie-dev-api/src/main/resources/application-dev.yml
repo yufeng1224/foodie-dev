@@ -1,0 +1,14 @@
+server:
+  port: 8088
+
+spring:
+  datasource:                                               # 数据源的相关配置
+    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    password: yufeng@1224
+
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # mybatis sql日志打印, 仅仅在开发或者测试环境下使用
+
+

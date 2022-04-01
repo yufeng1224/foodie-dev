@@ -8,9 +8,11 @@ com/yufeng/my/mapper/MyMapper.class
 com/yufeng/mapper/ItemsImgMapper.class
 com/yufeng/mapper/CategoryMapperCustom.class
 com/yufeng/mapper/StuMapper.class
+com/yufeng/mapper/ItemsCommentsMapperCustom.class
 com/yufeng/mapper/ItemsSpecMapper.class
 com/yufeng/mapper/OrdersMapper.class
 com/yufeng/mapper/ItemsMapper.class
 com/yufeng/mapper/CarouselMapper.class
 com/yufeng/mapper/ItemsMapperCustom.class
+com/yufeng/mapper/OrdersMapperCustom.class
 com/yufeng/mapper/OrderItemsMapper.class

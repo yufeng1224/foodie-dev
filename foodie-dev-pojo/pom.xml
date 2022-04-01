@@ -13,7 +13,10 @@
     <artifactId>foodie-dev-pojo</artifactId>
 
     <dependencies>
-        <!-- 构建依赖关系 -->
+        <!--
+            1. 构建依赖关系: pojo -> common
+            2. pojo 是可以使用common中相应的方法的
+        -->
         <dependency>
             <groupId>com.yufeng</groupId>
             <artifactId>foodie-dev-common</artifactId>

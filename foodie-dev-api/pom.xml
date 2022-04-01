@@ -9,19 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 用户请求的那层, 我们会把它称之为接口层。 命名上往往会定义为api -->
     <artifactId>foodie-dev-api</artifactId>
 <!--    <packaging>jar</packaging>-->
     <!-- 打包war [1] -->
-<!--    <packaging>war</packaging>-->
-
-    <!-- 用户请求的那层, 我们会把它称之为接口层。 命名上往往会定义为api -->
+    <packaging>war</packaging>
 
     <dependencies>
         <!--
-                假设又多了一个 common-mail jar包, 那么依赖关系可以分为以下2个分支
-                    1. api -> service -> mapper -> pojo -> common
-                    2. api -> common-mail
-                api 可以使用service、pojo与common中相应的方法的
+            1. 假设又多了一个 common-mail jar包, 那么依赖关系可以分为以下2个分支
+               1-1 api -> service -> mapper -> pojo -> common
+               1-2 api -> common-mail
+            2. api 可以使用service、pojo与common中相应的方法的, 一般来说api不要跳过service
+               直接去使用底层依赖的方法
         -->
         <dependency>
             <groupId>com.yufeng</groupId>
@@ -30,12 +30,19 @@
         </dependency>
 
 
-        <!-- 测试内容是放在api里面的, 所以加入了test-->
+        <!-- 测试内容是放在api里面的, 所以加入了test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- 打成war包添加依赖, 第[3步]-->
+<!--        <dependency>-->
+<!--            <groupId>javax.servlet</groupId>-->
+<!--            <artifactId>javax.servlet-api</artifactId>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
 
     </dependencies>
 

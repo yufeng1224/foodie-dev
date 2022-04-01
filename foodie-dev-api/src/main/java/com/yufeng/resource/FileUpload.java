@@ -14,7 +14,8 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix = "file")
-@PropertySource("classpath: file-upload-dev.properties")
+/** classpath: 后面绝对绝对不能带空格!!! 否则tomcat解析报错 */
+@PropertySource("classpath:file-upload-dev.properties")
 /**
  * 以后如果上生产的话, 这边的dev就可以改成prod
  */
